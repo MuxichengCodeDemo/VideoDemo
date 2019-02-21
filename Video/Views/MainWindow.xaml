@@ -1,0 +1,24 @@
+﻿<Window x:Class="Video.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Video"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Button
+                Margin="5"
+                Content="Test"
+                Command="{Binding TestCommand}"/>
+            <TextBox
+                Margin="5"
+                Text="{Binding TextBoxText.Value, UpdateSourceTrigger=PropertyChanged}"/>
+            <TextBlock
+                Margin="5"
+                Text="{Binding TextBlockText.Value}"/>
+
+        </StackPanel>
+    </Grid>
+</Window>
