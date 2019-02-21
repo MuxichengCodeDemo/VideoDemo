@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Video
+namespace Video.Views.Page
 {
     /// <summary>
-    /// MainWindow.xaml 的交互逻辑
+    /// MainTabPage.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainTabPage
     {
-        public MainWindow()
+        public MainTabPage()
         {
             InitializeComponent();
         }
