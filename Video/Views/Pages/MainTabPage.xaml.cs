@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Video.Views.Page
+namespace Video.Views.Pages
 {
     /// <summary>
     /// MainTabPage.xaml 的交互逻辑
